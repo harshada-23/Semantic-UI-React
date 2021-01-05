@@ -11,7 +11,7 @@ function ModalExampleMultiple() {
 
       <Modal
         onClose={() => setFirstOpen(false)}
-        onOpen={() => setFirstOpen(true)}
+        onOpen={() => setFirstOpen(false)}
         open={firstOpen}
       >
         <Modal.Header>Modal #1</Modal.Header>
